@@ -42,7 +42,7 @@ ul.posts li {
     list-style: none;
 }
 
-ul { list-style: none }
+body ul { list-style: none }
 
 .column {
   float: left;
