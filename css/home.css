@@ -44,7 +44,14 @@ ul.posts li {
 
 .column {
   float: left;
-  width: 50%;
+}
+
+.left {
+  width: 70%;
+}
+
+.right {
+  width: 30%;
 }
 
 /* Clear floats after the columns */
