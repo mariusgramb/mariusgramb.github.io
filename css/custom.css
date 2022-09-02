@@ -1,0 +1,42 @@
+a {
+    border-bottom: 1px solid var(--accent);
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px solid var(--bg);
+}
+nav .current {
+    background: var(--accent);
+    border: 1px solid var(--accent) !important;
+    color: var(--bg) !important;
+}
+.float {
+    float: right;
+    margin: 0.2em;
+    max-width: 35%;
+}
+.noindent {
+    font-size: smaller;
+    list-style-position: inside;
+    padding-left: 0;
+    margin-top: 0;
+}
+.noindent li span {
+    position: relative;
+    left: -0.2em;
+}
+dl dd {
+    margin-bottom: 0.4em;
+}
+dl dd:last-child {
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 750px) {
+    nav a {
+        padding: 0.5em !important;
+    }
+    nav .current {
+        background: var(--accent);
+        color: var(--bg) !important;
+    }
+}
