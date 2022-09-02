@@ -25,9 +25,16 @@ body {
 	}
 }
 
-
-
-
+nav ul, footer ul {
+    font-family:-apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
 
 div#main {
 	background: #fff none repeat scroll 0% 50%;
