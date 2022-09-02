@@ -21,7 +21,7 @@ nav ul li, footer ul li {
 }
 #nav_bar ul li a.active-page
 {
-  font-weight: bold;
+  background-color:blue;
 }
 a {
     text-decoration: none;
