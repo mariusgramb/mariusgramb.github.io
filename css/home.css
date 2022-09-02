@@ -3,9 +3,9 @@ html { background-color: #F8F9D5;
   
 body {
     margin: 0px auto;
-    width: 70%;
+    /* width: 70%; */ 
     min-height: 100vh;
-    max-width: 400px;
+    max-width: 800px;
     font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
     background-color: #F8F9D5;
 }
