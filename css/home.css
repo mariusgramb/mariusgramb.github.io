@@ -56,14 +56,18 @@ body ul { list-style: none }
     width: 50%;
 }
 
-table {
-    font-size: 1.5em
-}
-
-
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+table {
+    font-size: 1.5em
+}
+
+/* Prevent long strings from overflowing container */
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
 }
