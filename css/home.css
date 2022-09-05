@@ -72,19 +72,8 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
 
-@media all and (max-width: 629px) {
-  /* one column code */
-  #container {
-    display: flex ;
-    align-items: stretch ;
-    flex-flow: column wrap ;
-  }
-  #navbar {
-    order: 2 ;
+@media screen and (max-width: 600px) {
+  .column {
     width: 100%;
-  }
-  #content {
-    order: 1 ;
-    width: 100% ;
   }
 }
