@@ -72,14 +72,19 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
 
-@media only screen and (max-width: 629px) {
-  /* for widths less than or equal to 629 pixels */
-  #content {
-    float: none ;
-    width: 100% ;
+@media all and (max-width: 629px) {
+  /* one column code */
+  #container {
+    display: flex ;
+    align-items: stretch ;
+    flex-flow: column wrap ;
   }
   #navbar {
-    float: none ;
+    order: 2 ;
+    width: 100%;
+  }
+  #content {
+    order: 1 ;
     width: 100% ;
   }
 }
