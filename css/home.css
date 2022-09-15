@@ -1,4 +1,4 @@
-html { background-color: #FFFFF8; /* Look for HTML color codes online */
+html { background-color: #F8F9D5; /* Look for HTML color codes online */
 } 
   
 body {
@@ -7,7 +7,7 @@ body {
     min-height: 100vh;
     max-width: 800px;
     font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
-    background-color: #FFFFF8;
+    background-color: #F8F9D5;
 }
 nav ul, footer ul {
     font-family:-apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, "Noto Sans", "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
